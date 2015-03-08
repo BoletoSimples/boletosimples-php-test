@@ -9,10 +9,9 @@ Esse é um código de exemplo de uso da [Biblioteca PHP do Boleto Simples](https
     $ git clone https://github.com/BoletoSimples/boletosimples-php-test
     $ cd boletosimples-php-test
 
-* Instale as dependências
+* Instale as dependências usando o [Composer](https://getcomposer.org/)
 
-    $ gem install bundler
-    $ bundle install
+    $ composer install
 
 * Crie uma conta no ambiente de Sandbox do Boleto Simples acessando [https://sandbox.boletosimples.com.br/users/sign_up](https://sandbox.boletosimples.com.br/users/sign_up)
 
