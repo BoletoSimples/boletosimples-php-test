@@ -89,7 +89,79 @@ error_reporting (E_ALL ^ E_NOTICE);
 // echo "Status Final: " . $bank_billet->status . "\n";
 
 /****************************************************************************
+ * Customer.create (error)
+ ****************************************************************************/
+
+// $customer = BoletoSimples\Customer::create(['person_name' => 'Joao da Silva']);
+// if($customer->isPersisted()) {
+//   echo "Sucesso :)\n";
+//   print_r($customer->attributes());
+// } else {
+//   echo "Erro :(\n";
+//   print_r($customer->response_errors);
+// }
+
+/****************************************************************************
+ * Customer.create (success)
+ ****************************************************************************/
+
+// $customer = BoletoSimples\Customer::create([
+//   'person_name' => "Joao da Silva",
+//   'cnpj_cpf' => "860.196.915-19",
+//   'email' => "cliente@example.com",
+//   'address' => "Rua quinhentos",
+//   'city_name' => "Rio de Janeiro",
+//   'state' => "RJ",
+//   'neighborhood' => "bairro",
+//   'zipcode' => "12312-123",
+//   'address_number' => "111",
+//   'address_complement' => "Sala 4",
+//   'phone_number' => "2112123434"
+// ]);
+// if($customer->isPersisted()) {
+//   echo "Sucesso :)\n";
+//   print_r($customer->attributes());
+// } else {
+//   echo "Erro :(\n";
+//   print_r($customer->response_errors);
+// }
+
+/****************************************************************************
+ * Customer.find
+ ****************************************************************************/
+
+// $customer_id = 66;
+// $customer = BoletoSimples\Customer::find($customer_id);
+// print_r($customer->attributes());
+
+/****************************************************************************
+ * Customer.all
+ ****************************************************************************/
+
+// $customers = BoletoSimples\Customer::all(['page' => 1, 'per_page' => 2]);
+// echo "Clientes Retornados: " . sizeof($customers) . "\n";
+// echo "Total: " . BoletoSimples::$last_request->total . "\n";
+// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
+// echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
+// echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
+// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
+
+/****************************************************************************
+ * Transaction.all
+ ****************************************************************************/
+
+// $transactions = BoletoSimples\Transaction::all(['page' => 1, 'per_page' => 2]);
+// echo "Transações Retornadas: " . sizeof($transactions) . "\n";
+// echo "Total: " . BoletoSimples::$last_request->total . "\n";
+// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
+// echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
+// echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
+// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
+
+/****************************************************************************
  * Extra.userinfo
  ****************************************************************************/
 
-// print_r(BoletoSimples\Extra::userinfo());
+// $userinfo = BoletoSimples\Extra::userinfo();
+// print_r($userinfo);
+
