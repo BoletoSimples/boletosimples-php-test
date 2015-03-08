@@ -4,24 +4,24 @@ Esse é um código de exemplo de uso da [Biblioteca PHP do Boleto Simples](https
 
 ## Usando
 
-* Baixe o código
+Baixe o código
 
     $ git clone https://github.com/BoletoSimples/boletosimples-php-test
     $ cd boletosimples-php-test
 
-* Instale as dependências usando o [Composer](https://getcomposer.org/)
+Instale as dependências usando o [Composer](https://getcomposer.org/)
 
     $ composer install
 
-* Crie uma conta no ambiente de Sandbox do Boleto Simples acessando [https://sandbox.boletosimples.com.br/users/sign_up](https://sandbox.boletosimples.com.br/users/sign_up)
+Crie uma conta no ambiente de Sandbox do Boleto Simples acessando [https://sandbox.boletosimples.com.br/users/sign_up](https://sandbox.boletosimples.com.br/users/sign_up)
 
-* Configure o seu acess token, disponível em [https://sandbox.boletosimples.com.br/conta/api/tokens](https://sandbox.boletosimples.com.br/conta/api/tokens)
+Configure o seu acess token, disponível em [https://sandbox.boletosimples.com.br/conta/api/tokens](https://sandbox.boletosimples.com.br/conta/api/tokens)
 
     $ export BOLETOSIMPLES_ACCESS_TOKEN=99999
 
-* Edite o arquivo `index.php` e descomente o código que você deseja testar;
+Edite o arquivo `index.php` e descomente o código que você deseja testar;
 
-* Rode o código
+Rode o código
 
     $ php index.php
 
