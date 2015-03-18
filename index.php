@@ -135,6 +135,38 @@ error_reporting (E_ALL ^ E_NOTICE);
 // print_r($customer->attributes());
 
 /****************************************************************************
+ * Customer.update (error)
+ ****************************************************************************/
+
+// $customer_id = 56;
+// $customer = BoletoSimples\Customer::find($customer_id);
+// echo "Nome antigo: " . $customer->person_name . "\n";;
+// $customer->person_name = '';
+// if($customer->save()) {
+//   echo "Sucesso :)\n";
+//   echo "Novo nome: " . $customer->person_name . "\n";;
+// } else {
+//   echo "Erro :(\n";
+//   print_r($customer->response_errors);
+// }
+
+/****************************************************************************
+ * Customer.update (success)
+ ****************************************************************************/
+
+// $customer_id = 56;
+// $customer = BoletoSimples\Customer::find($customer_id);
+// echo "Nome antigo: " . $customer->person_name . "\n";;
+// $customer->person_name = 'Nome 1234';
+// if($customer->save()) {
+//   echo "Sucesso :)\n";
+//   echo "Novo nome: " . $customer->person_name . "\n";;
+// } else {
+//   echo "Erro :(\n";
+//   print_r($customer->response_errors);
+// }
+
+/****************************************************************************
  * Customer.all
  ****************************************************************************/
 
