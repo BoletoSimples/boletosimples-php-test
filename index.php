@@ -9,6 +9,7 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // BoletoSimples::configure(array(
 //   "environment" => 'sandbox', // default: 'sandbox'
+//
 // ));
 
 /****************************************************************************
@@ -179,6 +180,21 @@ error_reporting (E_ALL ^ E_NOTICE);
 // echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
+ * Customer.cnpj_cpf
+ ****************************************************************************/
+
+// $cnpj_cpf = '012.345.678-90';
+// $customer = BoletoSimples\Customer::cnpj_cpf($cnpj_cpf);
+// print_r($customer->attributes());
+
+/****************************************************************************
+ * Customer.email
+ ****************************************************************************/
+// $email = 'email@cliente.com.br';
+// $customer = BoletoSimples\Customer::email($email);
+// print_r($customer->attributes());
+
+/****************************************************************************
  * Transaction.all
  ****************************************************************************/
 
@@ -196,4 +212,3 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // $userinfo = BoletoSimples\Extra::userinfo();
 // print_r($userinfo);
-
