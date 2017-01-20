@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7c6def5e7dce7f098c3f16eb38e20a83",
     "content-hash": "4081e919967f119870cd89f66617b3f2",
     "packages": [
         {
@@ -13,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BoletoSimples/boletosimples-php.git",
-                "reference": "8188fa314806e72b40fc0ee887bcd4f09040be5c"
+                "reference": "ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BoletoSimples/boletosimples-php/zipball/8188fa314806e72b40fc0ee887bcd4f09040be5c",
-                "reference": "8188fa314806e72b40fc0ee887bcd4f09040be5c",
+                "url": "https://api.github.com/repos/BoletoSimples/boletosimples-php/zipball/ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2",
+                "reference": "ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +61,7 @@
                 "ecommerce",
                 "simples"
             ],
-            "time": "2016-12-26 19:19:20"
+            "time": "2017-01-20 13:33:28"
         },
         {
             "name": "commerceguys/guzzle-oauth2-plugin",
@@ -107,7 +106,7 @@
                 }
             ],
             "description": "An OAuth2 plugin (subscriber) for Guzzle",
-            "time": "2015-12-12 23:27:25"
+            "time": "2015-12-12T23:27:25+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -151,7 +150,7 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2015-06-22 23:26:39"
+            "time": "2015-06-22T23:26:39+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -203,7 +202,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-15 19:28:39"
+            "time": "2016-07-15T19:28:39+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -254,7 +253,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
+            "time": "2015-05-20T03:37:09+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -304,7 +303,7 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:18:40"
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "react/promise",
@@ -347,7 +346,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2016-12-22 14:09:01"
+            "time": "2016-12-22T14:09:01+00:00"
         }
     ],
     "packages-dev": [],

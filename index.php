@@ -89,6 +89,62 @@ error_reporting (E_ALL ^ E_NOTICE);
 // }
 // echo "Status Final: " . $bank_billet->status . "\n";
 
+
+/****************************************************************************
+ * BankBillet.cnpj_cpf
+ ****************************************************************************/
+
+// $cnpj_cpf = '012.345.678-90';
+// $bank_billets = BoletoSimples\BankBillet::cnpj_cpf($cnpj_cpf);
+// echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
+// echo "Total: " . BoletoSimples::$last_request->total . "\n";
+// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
+// echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
+// echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
+// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
+
+/****************************************************************************
+ * BankBillet.status
+ ****************************************************************************/
+//
+// $status = 'opened';
+// $bank_billets = BoletoSimples\BankBillet::status($status);
+// echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
+// echo "Total: " . BoletoSimples::$last_request->total . "\n";
+// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
+// echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
+// echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
+// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
+
+/****************************************************************************
+ * BankBillet.our_number
+ ****************************************************************************/
+
+// $our_number = '0000036';
+// $bank_billets = BoletoSimples\BankBillet::our_number($our_number);
+// echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
+// echo "Total: " . BoletoSimples::$last_request->total . "\n";
+// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
+// echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
+// echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
+// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
+
+
+/****************************************************************************
+ * BankBillet.duplicate
+ ****************************************************************************/
+
+// $bank_billet_id = 1;
+// $bank_billet = BoletoSimples\BankBillet::find($bank_billet_id);
+// echo "ID Anterior: " . $bank_billet->id . "\n";
+// if($bank_billet->duplicate(['expire_at_in_days' => 30, 'amount' => '200,50'])) {
+//   echo "Duplicado :)\n";
+// } else {
+//   echo "Erro :)\n";
+//   print_r($bank_billet->response_errors);
+// }
+// echo "ID Novo: " . $bank_billet->id . "\n";
+
 /****************************************************************************
  * Customer.create (error)
  ****************************************************************************/
