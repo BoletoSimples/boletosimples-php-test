@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BoletoSimples/boletosimples-php.git",
-                "reference": "ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2"
+                "reference": "22e019f8cd8b6b1a38a57e5ea528e2519b84d8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BoletoSimples/boletosimples-php/zipball/ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2",
-                "reference": "ba1b889dabbd7bd2e9a5ad242ad4ec89c25ad8a2",
+                "url": "https://api.github.com/repos/BoletoSimples/boletosimples-php/zipball/22e019f8cd8b6b1a38a57e5ea528e2519b84d8db",
+                "reference": "22e019f8cd8b6b1a38a57e5ea528e2519b84d8db",
                 "shasum": ""
             },
             "require": {
-                "commerceguys/guzzle-oauth2-plugin": "2.*@beta",
+                "commerceguys/guzzle-oauth2-plugin": "2.*",
                 "guzzlehttp/guzzle": "5.*"
             },
             "require-dev": {
@@ -61,7 +61,7 @@
                 "ecommerce",
                 "simples"
             ],
-            "time": "2017-01-20 13:33:28"
+            "time": "2017-11-17T17:40:23+00:00"
         },
         {
             "name": "commerceguys/guzzle-oauth2-plugin",
@@ -307,20 +307,23 @@
         },
         {
             "name": "react/promise",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "2760f3898b7e931aa71153852dcd48a75c9b95db"
+                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/2760f3898b7e931aa71153852dcd48a75c9b95db",
-                "reference": "2760f3898b7e931aa71153852dcd48a75c9b95db",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/62785ae604c8d69725d693eb370e1d67e94c4053",
+                "reference": "62785ae604c8d69725d693eb370e1d67e94c4053",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
@@ -346,7 +349,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2016-12-22T14:09:01+00:00"
+            "time": "2017-03-25T12:08:31+00:00"
         }
     ],
     "packages-dev": [],

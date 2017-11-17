@@ -32,12 +32,12 @@ error_reporting (E_ALL ^ E_NOTICE);
 // $bank_billet = BoletoSimples\BankBillet::create(array (
 //   'amount' => 9.01,
 //   'description' => 'Despesas do contrato 0012',
-//   'expire_at' => '2014-01-01',
+//   'expire_at' => '2024-01-01',
 //   'customer_address' => 'Rua quinhentos',
 //   'customer_address_complement' => 'Sala 4',
 //   'customer_address_number' => '111',
 //   'customer_city_name' => 'Rio de Janeiro',
-//   'customer_cnpj_cpf' => '012.345.678-90',
+//   'customer_cnpj_cpf' => '414.655.417-99',
 //   'customer_email' => 'cliente@example.com',
 //   'customer_neighborhood' => 'Sao Francisco',
 //   'customer_person_name' => 'Joao da Silva',
@@ -268,3 +268,13 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // $userinfo = BoletoSimples\Extra::userinfo();
 // print_r($userinfo);
+
+/****************************************************************************
+ * Remittance.bulk (success)
+ ****************************************************************************/
+
+// $remittance = BoletoSimples\Remittance::bulk([
+//   'bank_billet_remittance_ids' => ["17873"]
+// ]);
+//
+// print_r($remittance);
