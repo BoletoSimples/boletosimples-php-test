@@ -146,6 +146,21 @@ error_reporting (E_ALL ^ E_NOTICE);
 // echo "ID Novo: " . $bank_billet->id . "\n";
 
 /****************************************************************************
+ * BankBillet.pay
+ ****************************************************************************/
+
+// $bank_billet_id = 1;
+// $bank_billet = BoletoSimples\BankBillet::find($bank_billet_id);
+// echo "Status Anterior: " . $bank_billet->status . "\n";
+// if($bank_billet->pay(['paid_at' => '2014-01-01', 'paid_amount' => '200,50'])) {
+//   echo "PAGO :)\n";
+// } else {
+//   echo "Erro :)\n";
+//   print_r($bank_billet->response_errors);
+// }
+// echo "Status Final: " . $bank_billet->status . "\n";
+
+/****************************************************************************
  * Customer.create (error)
  ****************************************************************************/
 
