@@ -164,60 +164,60 @@ error_reporting (E_ALL ^ E_NOTICE);
  * BankBillet.bulk
  ****************************************************************************/
 
-$boletos = array(array (
-  'amount' => 9.01,
-  'description' => 'Despesas do contrato 0012',
-  'expire_at' => '2020-01-01',
-  'customer_address' => 'Rua quinhentos',
-  'customer_address_complement' => 'Sala 4',
-  'customer_address_number' => '111',
-  'customer_city_name' => 'Rio de Janeiro',
-  'customer_cnpj_cpf' => '414.655.417-99',
-  'customer_email' => 'cliente@example.com',
-  'customer_neighborhood' => 'Sao Francisco',
-  'customer_person_name' => 'Joao da Silva',
-  'customer_person_type' => 'individual',
-  'customer_phone_number' => '2112123434',
-  'customer_state' => 'RJ',
-  'customer_zipcode' => '12312-123'
-),
-array (
-  'amount' => 19.01,
-  'description' => 'Despesas do contrato 0012',
-  'expire_at' => '2020-02-01',
-  'customer_address' => 'Rua quinhentos',
-  'customer_address_complement' => 'Sala 4',
-  'customer_address_number' => '111',
-  'customer_city_name' => 'Rio de Janeiro',
-  'customer_cnpj_cpf' => '414.655.417-99',
-  'customer_email' => 'cliente@example.com',
-  'customer_neighborhood' => 'Sao Francisco',
-  'customer_person_name' => 'Joao da Silva',
-  'customer_person_type' => 'individual',
-  'customer_phone_number' => '2112123434',
-  'customer_state' => 'RJ',
-  'customer_zipcode' => '12312-123'
-),
-array (
-  'amount' => 19.01,
-  'description' => 'Despesas do contrato 0012',
-  'expire_at' => '',
-  'customer_address' => 'Rua quinhentos',
-  'customer_address_complement' => 'Sala 4',
-  'customer_address_number' => '111',
-  'customer_city_name' => 'Rio de Janeiro',
-  'customer_cnpj_cpf' => '414.655.417-99',
-  'customer_email' => 'cliente@example.com',
-  'customer_neighborhood' => 'Sao Francisco',
-  'customer_person_name' => 'Joao da Silva',
-  'customer_person_type' => 'individual',
-  'customer_phone_number' => '2112123434',
-  'customer_state' => 'RJ',
-  'customer_zipcode' => '12312-123'
-));
-
-$bank_billets = BoletoSimples\BankBillet::bulk($boletos);
-print_r($bank_billets);
+// $boletos = array(array (
+//   'amount' => 9.01,
+//   'description' => 'Despesas do contrato 0012',
+//   'expire_at' => '2020-01-01',
+//   'customer_address' => 'Rua quinhentos',
+//   'customer_address_complement' => 'Sala 4',
+//   'customer_address_number' => '111',
+//   'customer_city_name' => 'Rio de Janeiro',
+//   'customer_cnpj_cpf' => '414.655.417-99',
+//   'customer_email' => 'cliente@example.com',
+//   'customer_neighborhood' => 'Sao Francisco',
+//   'customer_person_name' => 'Joao da Silva',
+//   'customer_person_type' => 'individual',
+//   'customer_phone_number' => '2112123434',
+//   'customer_state' => 'RJ',
+//   'customer_zipcode' => '12312-123'
+// ),
+// array (
+//   'amount' => 19.01,
+//   'description' => 'Despesas do contrato 0012',
+//   'expire_at' => '2020-02-01',
+//   'customer_address' => 'Rua quinhentos',
+//   'customer_address_complement' => 'Sala 4',
+//   'customer_address_number' => '111',
+//   'customer_city_name' => 'Rio de Janeiro',
+//   'customer_cnpj_cpf' => '414.655.417-99',
+//   'customer_email' => 'cliente@example.com',
+//   'customer_neighborhood' => 'Sao Francisco',
+//   'customer_person_name' => 'Joao da Silva',
+//   'customer_person_type' => 'individual',
+//   'customer_phone_number' => '2112123434',
+//   'customer_state' => 'RJ',
+//   'customer_zipcode' => '12312-123'
+// ),
+// array (
+//   'amount' => 19.01,
+//   'description' => 'Despesas do contrato 0012',
+//   'expire_at' => '',
+//   'customer_address' => 'Rua quinhentos',
+//   'customer_address_complement' => 'Sala 4',
+//   'customer_address_number' => '111',
+//   'customer_city_name' => 'Rio de Janeiro',
+//   'customer_cnpj_cpf' => '414.655.417-99',
+//   'customer_email' => 'cliente@example.com',
+//   'customer_neighborhood' => 'Sao Francisco',
+//   'customer_person_name' => 'Joao da Silva',
+//   'customer_person_type' => 'individual',
+//   'customer_phone_number' => '2112123434',
+//   'customer_state' => 'RJ',
+//   'customer_zipcode' => '12312-123'
+// ));
+//
+// $bank_billets = BoletoSimples\BankBillet::bulk($boletos);
+// print_r($bank_billets);
 
 
 /****************************************************************************
