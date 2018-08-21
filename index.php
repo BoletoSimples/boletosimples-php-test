@@ -161,6 +161,38 @@ error_reporting (E_ALL ^ E_NOTICE);
 // echo "Status Final: " . $bank_billet->status . "\n";
 
 /****************************************************************************
+ * BankBillet.update (error)
+ ****************************************************************************/
+
+// $bank_billet_id = 56;
+// $bank_billet = BoletoSimples\BankBillet::find($bank_billet_id);
+// echo "Vencimento: " . $bank_billet->expire_at . "\n";;
+// $bank_billet->expire_at = '';
+// if($bank_billet->save()) {
+//   echo "Sucesso :)\n";
+//   echo "Novo vencimento " . $bank_billet->expire_at . "\n";;
+// } else {
+//   echo "Erro :(\n";
+//   print_r($bank_billet->response_errors);
+// }
+
+/****************************************************************************
+ * BankBillet.update (success)
+ ****************************************************************************/
+
+// $bank_billet_id = 56;
+// $bank_billet = BoletoSimples\BankBillet::find($bank_billet_id);
+// echo "Vencimento: " . $bank_billet->expire_at . "\n";;
+// $bank_billet->expire_at = '2020-01-01';
+// if($bank_billet->save()) {
+//   echo "Sucesso :)\n";
+//   echo "Novo vencimento: " . $bank_billet->expire_at . "\n";;
+// } else {
+//   echo "Erro :(\n";
+//   print_r($bank_billet->response_errors);
+// }
+
+/****************************************************************************
  * BankBillet.bulk
  ****************************************************************************/
 
