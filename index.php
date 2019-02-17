@@ -68,11 +68,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // $bank_billets = BoletoSimples\BankBillet::all(['page' => 1, 'per_page' => 2]);
 // echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
  * BankBillet.cancel
@@ -97,11 +94,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 // $cnpj_cpf = '012.345.678-90';
 // $bank_billets = BoletoSimples\BankBillet::cnpj_cpf($cnpj_cpf);
 // echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
  * BankBillet.status
@@ -110,11 +104,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 // $status = 'opened';
 // $bank_billets = BoletoSimples\BankBillet::status($status);
 // echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
  * BankBillet.our_number
@@ -123,11 +114,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 // $our_number = '0000036';
 // $bank_billets = BoletoSimples\BankBillet::our_number($our_number);
 // echo "Boletos Retornados: " . sizeof($bank_billets) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 
 /****************************************************************************
@@ -336,11 +324,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // $customers = BoletoSimples\Customer::all(['page' => 1, 'per_page' => 2]);
 // echo "Clientes Retornados: " . sizeof($customers) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
  * Customer.cnpj_cpf
@@ -363,11 +348,8 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // $transactions = BoletoSimples\Transaction::all(['page' => 1, 'per_page' => 2]);
 // echo "Transações Retornadas: " . sizeof($transactions) . "\n";
-// echo "Total: " . BoletoSimples::$last_request->total . "\n";
-// echo "Primeira Página: " . BoletoSimples::$last_request->links['first'] . "\n";
 // echo "Página Anterior: " . BoletoSimples::$last_request->links['prev'] . "\n";
 // echo "Próxima Página: " . BoletoSimples::$last_request->links['next'] . "\n";
-// echo "Última Página: " . BoletoSimples::$last_request->links['last'] . "\n";
 
 /****************************************************************************
  * Extra.userinfo
