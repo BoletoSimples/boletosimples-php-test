@@ -9,7 +9,7 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 // BoletoSimples::configure(array(
 //   "environment" => 'sandbox', // default: 'sandbox'
-//
+//   "access_token" => 'pegar token na sua conta sandbox'
 // ));
 
 /****************************************************************************
@@ -44,7 +44,13 @@ error_reporting (E_ALL ^ E_NOTICE);
 //   'customer_person_type' => 'individual',
 //   'customer_phone_number' => '2112123434',
 //   'customer_state' => 'RJ',
-//   'customer_zipcode' => '12312-123'
+//   'customer_zipcode' => '12312-123',
+//   'meta' => "{\"reference_id\": \"code123\"}",
+//   'fine_type' => '1',
+//   'fine_percentage' => 1.67,
+//   'interest_type' => '1',
+//   'interest_percentage' => 1.37
+//   // 'bank_billet_account_id' => 12 #quando usar carteira própria
 // ));
 // if($bank_billet->isPersisted()) {
 //   echo "Sucesso :)\n";
